@@ -1,1 +1,1 @@
-https://github.com/dimyix/ono-tebe-nado
+https://github.com/dimyix/ono-tebe-nado-fd
