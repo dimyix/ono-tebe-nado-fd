@@ -9,24 +9,24 @@
 
 .header__links-list {
   display: flex;
-  justify-content: center;
-  gap: 32px;
+  gap: 33px;
   list-style: circle;
   font-size: 18px;
-  padding-right: 13px;
+  padding-left: 50px;
 }
 
-.header__links-list-item_no-bullit {
-  text-decoration: none;
+.header__links-list-item_no-bullet {
   list-style: none;
-  padding-left: 22px;
 }
 
 .header__link {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
-  padding-left: 2px;
+}
+
+.header__link_active {
+  text-decoration: none;
 }
 
 .header__logo {
@@ -118,6 +118,7 @@
 }
 .bet-button {
   background: transparent;
+  font-family: inherit;
   border: 1px solid white;
   color: white;
   padding: 12px 31px;
@@ -250,7 +251,6 @@ section.lots {
 
 .footer__address {
   padding-left: 1px;
-  font-weight: 400px;
   font-size: 18px;
   width: 264px;
 }
